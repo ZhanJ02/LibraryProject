@@ -1,29 +1,17 @@
-﻿using System;
-using Milliken.Book;
-
-namespace Milliken.EBook
+﻿namespace Milliken.eBook
 {
+    using Milliken.book;
+
     public class EBook : Book
     {
         // Properties
-        public double FileSize { get; set; } = 100.0;
+        public double FileSizeMB { get; set; }
 
         // Parameterized Constructor
-        public EBook(string title, string author, string genre, int pages, int yearPublished, double fileSize)
-            : base(title, author, genre, pages, yearPublished)
+        public EBook(string title, string author, int pages, int yearPublished, double fileSizeMB)
+            : base(title, author, pages, yearPublished)
         {
-            FileSize = fileSize;
-        }
-
-        // Print Function
-        public void PrintEBookDetails()
-        {
-            Console.WriteLine("Title: " + Title);
-            Console.WriteLine("Author: " + Author);
-            Console.WriteLine("Genre: " + Genre);
-            Console.WriteLine("Pages: " + Pages);
-            Console.WriteLine("Year Published: " + YearPublished);
-            Console.WriteLine("File Size: " + FileSize + " MB");
+            FileSizeMB = fileSizeMB;
         }
     }
 }
