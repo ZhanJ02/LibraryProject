@@ -1,0 +1,10 @@
+@Milliken.API_HostAddress = http://localhost:5217
+
+GET {{Milliken.API_HostAddress}}/GetNumeberOfBooks/
+Accept: application/json
+
+###
+GET {{Milliken.API_HostAddress}}/GetNumeberOfEBooks/
+Accept: application/json
+
+###
