@@ -1,1 +1,1 @@
-Moving onto the RESTful API; I implemented some HTTP functions like HttpGet, HttpPut, HttpDelete, and etc. 
+Moving onto the RESTful API; I implemented some HTTP functions like HttpGet, HttpPut, HttpDelete, and etc. I also added some dependency injection onto the program.cs class for the library service and the logger. 
