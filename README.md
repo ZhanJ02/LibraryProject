@@ -1,1 +1,1 @@
-Made some changes since last week. I edited the classes so that the book, ebook, and library classes do not containg any default constructors and methods. I then created an interface for the library functions. These functions will be implemented in the library service class. These will all be tested in the testing console app class. 
+Moving onto the RESTful API; I implemented some HTTP functions like HttpGet, HttpPut, HttpDelete, and etc. 
